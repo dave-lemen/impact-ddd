@@ -1,0 +1,14 @@
+### Get Today’s Appointments
+GET http://localhost:5000/api/appointment/get-today-appts/1
+Accept: application/json
+
+### Create a New Appointment
+POST http://localhost:5000/appointment/create
+Content-Type: application/json
+
+{
+    "participantId": 123,
+    "caseWorkerId": 456,
+    "officeId": 1,
+    "date": "2024-07-27T09:00:00"
+}
